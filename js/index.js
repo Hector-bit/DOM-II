@@ -45,3 +45,41 @@ sixthjs.addEventListener('mouseover', (e) => {
 })
 
 //seventh addEventListener
+const seventhjs = document.querySelector('footer')
+
+seventhjs.addEventListener('wheel', (e) => {
+    seventhjs.style.border = '8px dashed green';
+})
+
+//eigth addEventListener
+const eightjs = document.querySelector('h2')
+
+eightjs.addEventListener('drag', (e) => {
+    eightjs.textContent = 'this bus will only take puppies';
+    console.log('select is workding');
+});
+
+//ninth addEventListener
+const ninthjs = document.querySelector('.content-destination img')
+
+ninthjs.addEventListener('contextmenu', (e) => {
+    ninthjs.src = 'https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
+})
+
+//tenth addEventListener
+const tenth = document.querySelectorAll('.btn')
+
+tenth[0].addEventListener('auxclick', (e) => {
+    tenth[0].style.borderRadius = '50%';
+    console.log('button is working');
+})
+
+tenth[1].addEventListener('auxclick', (e) => {
+    tenth[1].style.borderRadius = '50%';
+    console.log('button is working');
+})
+
+tenth[2].addEventListener('auxclick', (e) => {
+    tenth[2].style.borderRadius = '50%';
+    console.log('button is working');
+})
